@@ -22,3 +22,33 @@ h1 {
 footer {
     margin-top: 10rem;
 }
+#whatsapp {
+    margin-top: 6px;
+    margin-right: 8px;
+    width: 34px;
+    height: 34px;
+    background: url(imagens/whatsapp.png);
+}
+#whatsapp:hover {
+    background: url(imagens/whatsapp-active.png);
+}
+#discord {
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 34px;
+    height: 34px;
+    background: url(imagens/discord.png);
+}
+#discord:hover {
+    background: url(imagens/discord-active.png);
+}
+#github {
+    margin-top: 6px;
+    margin-right: 40px;
+    width: 34px;
+    height: 34px;
+    background: url(imagens/github.png);
+}
+#github:hover {
+    background: url(imagens/github-active.png);
+}
