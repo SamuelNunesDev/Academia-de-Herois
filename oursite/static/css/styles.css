@@ -1,5 +1,4 @@
 body {
-    background-color: #88D9E6;
     background-image: url('../img/bg-login.jpg');
     background-size: cover;
 }
@@ -18,9 +17,6 @@ h1 {
     background-color: rgba(0, 0, 0, 0.781);
     border-radius: 4px;
     color: white;
-}
-footer {
-    margin-top: 10rem;
 }
 #whatsapp {
     margin-top: 6px;
@@ -51,4 +47,7 @@ footer {
 }
 #github:hover {
     background: url('../img/github-active.png');
+}
+.text-indent {
+    text-indent: 1rem;
 }
