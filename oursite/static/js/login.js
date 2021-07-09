@@ -11,5 +11,4 @@ function login()
     btCadastro.classList.add('btn-success')
     titulo.innerHTML = 'Entre Agora!'
     btCadastro.innerHTML = 'Entrar'
-    //btLogin.innerHTML = '<button type="submit" class="btn btn-sucess">Entrar</button>'
 }
