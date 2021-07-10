@@ -70,7 +70,14 @@
             </div>
             <div class="form-group mt-3">
               <label for="exampleInputPassword1">Senha</label>
+<<<<<<< HEAD
               <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Senha" required>
+=======
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required>
+            </div>
+            <div class="form-group mt-3">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirme a Senha" required>
+>>>>>>> 95bed57b7c11c6394beddbfcfa9c51d6d3ca24d7
             </div>
             <div class="mt-4">
               <button type="submit" class="btn btn-primary">Cadastrar</button>
@@ -81,6 +88,8 @@
             <strong>{{ message }}</strong>
           {% endfor %}
         </article>
+        {% if message[0] == 'Sucesso! Usuário cadastrado com sucesso.') %}
+        <script></script>
     </main>
     <br><br><br>
     <footer class="bg-semi-transparent-dark text-center">
