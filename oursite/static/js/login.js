@@ -4,16 +4,19 @@ function login()
     let inputPassword2 = document.querySelector('#InputPassword2')
     let form = document.querySelector('#formulario')
 
-    if ((inputPassword1.value === inputPassword2.value) && (inputPassword1.value != ''))
-    {
-        alert('submit')
-        form.submit()
-    }
-    else
+    if (inputPassword1.value != inputPassword2.value)
     {
         inputPassword1.value = ''
         inputPassword2.value = ''
         alert('As senhas não conferem!')
+    }
+    else if (inputPassword1.value != '')
+    {
+        form.submit()
+    }
+    else
+    {
+        alert('Não é permitido cadastrar uma senha vazia! Preencha os campos de tente novamente!')
     }
 }
 /*
