@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto col-5">
                 <li class="nav-item px-3">
-                  <a class="nav-link" href="#"><strong>Sou Professor</strong></a>
+                  <a class="nav-link" href="#"><strong>Inicio</strong></a>
                 </li>
                 <li class="nav-item px-3">
                   <a class="nav-link" href="#"><strong>Quem somos?</strong></a>
@@ -45,23 +45,35 @@
                     <a class="nav-link" id="github" href="#"></a>
                 </li>
                 <li>
-                  <button type="button" class="btn btn-success px-4 mt-1">Entrar</button>
+                  <label class="h5 pt-2">Bem Vindo Fulano!</label>
+                </li>&nbsp;&nbsp;
+                <li>
+                  <a href=""><button type="button" class="btn btn-outline-danger px-4 mt-1">Sair</button></a>
                 </li>
               </ul>
             </div>
           </nav>
     </header>
-    <main class="container">
-        <div class="row justify-content-center">
-            <article class="col-12 col-md-8 bg-semi-transparent mt-4 text-center py-3" id="erro404">
-                <h1>Ops! Algo deu errado...</h1>
-                <p class="mt-3 font-size">A página que você está tentando acessar não foi encontrada ou não existe!</p>
-                <p class="mt-3 font-size">Tente novamente ou navegue pelo menu principal.</p>
-                <img src="../oursite/static/img/erro404.png" alt="">
-            </article>
-        </div>
-    </main>
-    <footer class="bg-semi-transparent-dark text-center mt-4">
+    <section class="container bg-semi-transparent-dark col-12 col-lg-6 text-center mt-3 pt-3 pb-1">
+        <article class="row justify-content-center">
+            <h1>Ajude-nos a capacitar!</h1>
+            <p class="mt-3 font-size">A plataforma "Academia de Heróis" é um projeto sem fins lucrativos criada por <i>Samuel Nunes, Kelver e Luan Argolo.</i></p>
+            <div class="col-11">
+                <p class="text-center text-indent">Necessitamos de super-heróis para ensinar e capacitar! Como? Disponibilizando cursos gratuitos sobre os mais diversos tipos de trabalhos e ferramentas! Se você possui um conhecimento que pode ser realmente útil para pessoas que estão em busca de sua primeira vaga no mercado de trabalho, ou que simplesmente se sentem inseguras em ingressar na faculdade por medo de não conseguir um trabalho, <strong>colabore conosco!</strong>
+                </p>
+            </div>
+        </article>
+        <form>
+            <label for="inputURL" class="mt-0">Cole aqui o link do youtube referente a playlist do seu curso:</label>
+            <div class="row justify-content-center">
+                <div class="col-10 px-0">
+                    <input type="url" class="form-control my-3" id="inputURL" placeholder="URL" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success mb-3">Enviar</button>
+          </form>
+    </section>
+    <footer class="bg-semi-transparent-dark text-center mt-5">
         <p>Desenvolvido pela equipe Beta 2021 &copy;</p>
     </footer>
 </body>
