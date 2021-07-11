@@ -18,36 +18,58 @@ h1 {
     border-radius: 4px;
     color: white;
 }
-#whatsapp {
+.whatsapp {
     margin-top: 6px;
     margin-right: 8px;
     width: 34px;
     height: 34px;
     background: url('../img/whatsapp.png');
 }
-#whatsapp:hover {
+.whatsapp:hover {
     background: url('../img/whatsapp-active.png');
 }
-#discord {
+.discord {
     margin-top: 8px;
     margin-right: 8px;
     width: 34px;
     height: 34px;
     background: url('../img/discord.png');
 }
-#discord:hover {
+.discord:hover {
     background: url('../img/discord-active.png');
 }
-#github {
+.github {
     margin-top: 6px;
-    margin-right: 40px;
+    margin-right: 1rem;
     width: 34px;
     height: 34px;
     background: url('../img/github.png');
 }
-#github:hover {
+.github:hover {
     background: url('../img/github-active.png');
 }
 .text-indent {
     text-indent: 1rem;
+}
+.link-cidade {
+    color: white;
+    text-decoration: none;
+}
+.link-cidade:hover {
+    text-decoration: underline;
+}
+.whatsapp-dark {
+    width: 34px;
+    height: 34px;
+    background: url('../img/whatsapp-active.png');
+}
+.discord-dark {
+    height: 34px;
+    width: 34px;
+    background: url('../img/discord-active.png')
+}
+.github-dark {
+    height: 34px;
+    width: 34px;
+    background: url('../img/github-dark.png')
 }
