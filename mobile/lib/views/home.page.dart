@@ -12,27 +12,21 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: <Widget>[
-          Container(
-            alignment: Alignment.center,
-            child: Image.asset(
-              bgImage,
-              fit: BoxFit.contain,
-            ),
-          ),
           Column(
             children: <Widget>[
-              const SizedBox(height: 30.0),
+              const SizedBox(height: 15.0),
               Expanded(
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Colors.deepOrange,
                     borderRadius: BorderRadius.circular(10.0),
                     // ignore: prefer_const_literals_to_create_immutables
                     boxShadow: [
                       const BoxShadow(
-                          color: Colors.black38,
-                          offset: Offset(5.0, 5.0),
-                          blurRadius: 5.0)
+                        color: Colors.black38,
+                        offset: Offset(5.0, 5.0),
+                        blurRadius: 5.0,
+                      )
                     ],
                   ),
                   margin: const EdgeInsets.all(48.0),
@@ -52,10 +46,10 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 20.0),
-                      Text(
+                      const Text(
                         "Você está pronto?",
                         style: TextStyle(
-                          color: Colors.grey.shade700,
+                          color: Colors.white,
                           fontSize: 20.0,
                           fontFamily: "WorkSans",
                         ),
@@ -65,8 +59,8 @@ class HomePage extends StatelessWidget {
                         "Junte-se aos Heróis agora!\nAssista as aulas e seja também um Herói!",
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 13,
+                          color: Colors.white,
+                          fontSize: 14,
                           fontFamily: "Worksans",
                         ),
                       ),
