@@ -59,9 +59,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/icons/
-    - assets/icons/bottom/
-    - assets/icons/ordenation/
     - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -76,43 +73,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: "Nunito Sans"
+    - family: "Righteous"
       fonts:
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-200i.ttf"
-          style: "italic"
-          weight: 200
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-300i.ttf"
-          style: "italic"
-          weight: 300
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-400i.ttf"
-          style: "italic"
-          weight: 400
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-600i.ttf"
-          style: "italic"
-          weight: 600
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-700i.ttf"
-          style: "italic"
-          weight: 700
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-800i.ttf"
-          style: "italic"
-          weight: 800
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-900i.ttf"
-          style: "italic"
-          weight: 900
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-200.ttf"
-          weight: 200
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-300.ttf"
-          weight: 300
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-400.ttf"
-          weight: 400
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-600.ttf"
-          weight: 600
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-700.ttf"
-          weight: 700
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-800.ttf"
-          weight: 800
-        - asset: "assets/fonts/googleFonts/Nunito-Sans/Nunito-Sans-900.ttf"
-          weight: 900
+        - asset: "assets/fonts/Righteous-Regular.ttf"
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
