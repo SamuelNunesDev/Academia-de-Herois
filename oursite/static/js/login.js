@@ -5,6 +5,7 @@ let btCadastro = document.querySelector('#btCadastro')
 let btEntrar = document.querySelector('#entrar')
 let inputPassword1 = document.querySelector('#InputPassword1')
 let inputPassword2 = document.querySelector('#InputPassword2')
+let inputEmail = document.querySelector('#inputEmail')
 
 function autenticar()
 {
@@ -30,6 +31,7 @@ function login()
     btCadastro.innerHTML = 'Entrar'
 
     titulo.innerHTML = 'Entre Agora!'
+    inputEmail.focus()
 
     btEntrar.classList.remove('btn-success')
     btEntrar.classList.add('btn-primary')

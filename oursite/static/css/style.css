@@ -41,7 +41,7 @@ h1 {
 }
 .github {
     margin-top: 6px;
-    margin-right: 1rem;
+    margin-right: 8px;
     width: 34px;
     height: 34px;
     background: url('../img/github.png');
@@ -73,4 +73,9 @@ h1 {
     height: 34px;
     width: 34px;
     background: url('../img/github-dark.png')
+}
+.email-dark {
+    height: 34px;
+    width: 34px;
+    background: url('../img/email.png')
 }
