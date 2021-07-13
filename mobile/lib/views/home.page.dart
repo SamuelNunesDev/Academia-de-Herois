@@ -55,7 +55,8 @@ class HomePage extends StatelessWidget {
                         "Você está pronto?",
                         style: TextStyle(
                           color: Colors.grey.shade700,
-                          fontSize: 24.0,
+                          fontSize: 20.0,
+                          fontFamily: "WorkSans",
                         ),
                       ),
                       const SizedBox(height: 10.0),
@@ -64,8 +65,8 @@ class HomePage extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Colors.black,
-                          fontSize: 15.0,
-                          fontWeight: FontWeight.bold,
+                          fontSize: 13,
+                          fontFamily: "Worksans",
                         ),
                       ),
                       const SizedBox(height: 40.0),
@@ -85,8 +86,11 @@ class HomePage extends StatelessWidget {
                   onPressed: () {},
                   child: const Text(
                     "Iniciar",
-                    style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18.0,
+                      fontFamily: "Worksans",
+                    ),
                   ),
                 ),
               ),
