@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class HomePage extends StatelessWidget {
+class LandingPage extends StatelessWidget {
   final String bgImage = "assets/images/bg-login.jpg";
   final String image = "assets/images/bg-login.jpg";
 
-  const HomePage({Key? key}) : super(key: key);
+  const LandingPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
