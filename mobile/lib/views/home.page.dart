@@ -13,26 +13,28 @@ class HomePage extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Container(
-              alignment: Alignment.center,
-              child: Image.asset(
-                bgImage,
-                fit: BoxFit.contain,
-              )),
+            alignment: Alignment.center,
+            child: Image.asset(
+              bgImage,
+              fit: BoxFit.contain,
+            ),
+          ),
           Column(
             children: <Widget>[
               const SizedBox(height: 30.0),
               Expanded(
                 child: Container(
                   decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(10.0),
-                      // ignore: prefer_const_literals_to_create_immutables
-                      boxShadow: [
-                        const BoxShadow(
-                            color: Colors.black38,
-                            offset: Offset(5.0, 5.0),
-                            blurRadius: 5.0)
-                      ]),
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10.0),
+                    // ignore: prefer_const_literals_to_create_immutables
+                    boxShadow: [
+                      const BoxShadow(
+                          color: Colors.black38,
+                          offset: Offset(5.0, 5.0),
+                          blurRadius: 5.0)
+                    ],
+                  ),
                   margin: const EdgeInsets.all(48.0),
                   child: Column(
                     children: <Widget>[
@@ -40,10 +42,9 @@ class HomePage extends StatelessWidget {
                         child: Container(
                           decoration: BoxDecoration(
                               image: DecorationImage(
-                                  image: AssetImage(
-                                    image,
-                                  ),
-                                  fit: BoxFit.cover),
+                                image: AssetImage(image),
+                                fit: BoxFit.cover,
+                              ),
                               borderRadius: const BorderRadius.only(
                                 topLeft: Radius.circular(10.0),
                                 topRight: Radius.circular(10.0),
@@ -85,7 +86,7 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(40.0)),
                   onPressed: () {},
                   child: const Text(
-                    "Iniciar",
+                    "INICIAR",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 18.0,
