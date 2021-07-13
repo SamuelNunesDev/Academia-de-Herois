@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class HomePage extends StatelessWidget {
   final String bgImage = "assets/images/bg-login.jpg";
@@ -58,13 +59,16 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 10.0),
-                      Text(
+                      const Text(
                         "Junte-se aos Heróis agora!\nAssista as aulas e seja também um Herói!",
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                            color: Colors.grey.shade400, fontSize: 14.0),
+                          color: Colors.black,
+                          fontSize: 15.0,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                      const SizedBox(height: 30.0),
+                      const SizedBox(height: 40.0),
                     ],
                   ),
                 ),
@@ -82,11 +86,11 @@ class HomePage extends StatelessWidget {
                   child: const Text(
                     "Iniciar",
                     style:
-                        TextStyle(fontWeight: FontWeight.w300, fontSize: 18.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
                   ),
                 ),
               ),
-              const SizedBox(height: 40.0),
+              const SizedBox(height: 50.0),
             ],
           )
         ],
